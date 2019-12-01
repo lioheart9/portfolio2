@@ -1,0 +1,146 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: 0.8rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 1.2rem
+}
+
+.navbar-nav li {
+  padding-right: 1.2rem
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 64%;
+}
+
+.carousel-caption h1 {
+  font-size: 9vw;
+}
+
+.carousel-caption h3 {
+  font-size: 3vw;
+  font-weight: normal;
+}
+
+.padding {
+  padding-top: 4rem;
+}
+
+.section-title {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.section-title h2 {
+  font-size: 3rem;
+  padding-bottom: .3rem;
+}
+
+.fa-cheese, .fa-cocktail, .fa-coffee {
+  font-size: 4rem;
+  padding-bottom: .5rem;
+}
+
+.fa-cheese {
+  color: rgb(236, 198, 27);
+}
+
+.fa-cocktail {
+  color: rgb(212, 102, 0);
+}
+
+.fa-coffee {
+  color: rgb(71, 27, 11);
+}
+
+.value p {
+  width: 60%;
+  margin: 0 auto;
+  padding: .6rem 0 4.5rem 0;
+}
+
+.menu-row h2 {
+  font-size: 100%;
+}
+
+.menu-text .btn {
+  margin-top: 2rem;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-line {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-line:hover {
+  color: #d5d5d5;
+}
+
+.fa-facebook-f {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #517fa8;
+}
+
+.fa-line {
+  color: #3d9b3d;
+}
+
+/*---Media Queries --*/
+@media(max-width: 970px) {
+  .menu-text {
+    padding-top: 2.5rem;
+  }
+}
+
+
+@media(max-width: 627px) {
+  .carousel-caption {
+    position: absolute;
+    top: 63%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 8vw;
+  }
+
+    .carousel-caption h3 {
+    font-size: 2.5vw;
+  }
+
+}
+
+@media(max-width: 490px) {
+  .carousel-caption {
+    position: absolute;
+    top: 60%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 7vw;
+  }
+  .carousel-caption h3 {
+    font-size: 2vw;
+  }
+}
